@@ -68,7 +68,16 @@ h2 {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+    cursor: pointer;
+
 }
+
+.top-card-button:hover {
+     
+    background-color: #940F62;
+    
+}
+
 
 .top-card-right {
     display: flex;
@@ -114,6 +123,7 @@ h2 {
     flex-direction: row;
     /* justify-content: space-between; ??? */
     gap: 2.8em;
+
     
 }
 
@@ -127,6 +137,8 @@ h2 {
     border-radius: 1%;
     border: 2px solid gray;
     border-style: ridge;
+
+    cursor: pointer;
 
 }
 
@@ -167,6 +179,8 @@ h2 {
     border-radius: 1%;
     border: 2px solid gray; 
     border-style: ridge;
+
+    cursor: pointer;
     
 
 }
