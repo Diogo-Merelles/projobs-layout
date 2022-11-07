@@ -129,6 +129,8 @@ h2 {
     flex-direction: row;
     gap: 16px;
 
+    margin-bottom: 24px;
+
 
 }
 
@@ -201,4 +203,10 @@ h2 {
 
 .fa-long-arrow-right {
     margin-left: 1em;
+}
+
+/* second part - carousel */
+
+#hidden-tab {
+    display: none;
 }

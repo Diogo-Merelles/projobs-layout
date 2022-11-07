@@ -1,65 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <div class="main-card">
-        <div class="top-card">
-            <div class="top-card-left w-50">
-                <div class="top-banner"><strong>Projobs</strong></div>
-                <h1 class="top-banner-title">Hi Diogo, here's what you get by upgrading to Projobs.</h1>
-                <div class="top-card-text">
-                    <div class="text-container">
-                        <i class="fa fa-check"></i>
-                        <p class="text-container-item">Boost your visibility among recruiters</p>
-                    </div>
-                    <div class="text-container">
-                        <i class="fa fa-check"></i>
-                        <p class="text-container-item">Set jobseeker criteria for you next job</p>
-                    </div>
-                    <div class="text-container">
-                        <i class="fa fa-check"></i>
-                        <p class="text-container-item">Gain exclusive access to expert knowledge</p>
-                    </div>
-                </div>
-                <div class="top-card-button"><strong>Get Projobs</strong></div>
+      <div class="top-card">
+        <div class="top-card-left w-50">
+          <div class="top-banner"><strong>Projobs</strong></div>
+          <h1 class="top-banner-title">
+            Hi Diogo, here's what you get by upgrading to Projobs.
+          </h1>
+          <div class="top-card-text">
+            <div class="text-container">
+              <i class="fa fa-check"></i>
+              <p class="text-container-item">
+                Boost your visibility among recruiters
+              </p>
             </div>
-            <div class="top-card-right w-50">
-                <img src="images/top-card-image.svg" alt = "top card svg" class="top-card-svg"/>
+            <div class="text-container">
+              <i class="fa fa-check"></i>
+              <p class="text-container-item">
+                Set jobseeker criteria for you next job
+              </p>
             </div>
+            <div class="text-container">
+              <i class="fa fa-check"></i>
+              <p class="text-container-item">
+                Gain exclusive access to expert knowledge
+              </p>
+            </div>
+          </div>
+          <div class="top-card-button"><strong>Get Projobs</strong></div>
         </div>
-        <div class="bottom-card-container">
-            <div class="bottom-card">
-                <div class="left-bottom-card-left">
-                    <img src="/images/icons8-search.svg" alt="bottom left svg" class="bottom-left-svg"/>
-                </div>
-                <div class="left-bottom-card-right">
-                    <h2 class="left-bottom-card-title">Have any recruiters visited your profile?</h2>
-                    <div class="left-bottom-card-subtitle">Find out now by browsing your profile visitors.</div>
-                    <div class="left-bottom-card-action">Show profile visitors<i class="fa fa-long-arrow-right"></i></div>
-                </div>
-            </div>
-            <div class="bottom-card">
-                <div class="right-bottom-card-left">
-                    <img src="/images/icons8-search.svg" alt="bottom left svg" class="bottom-right-svg"/>
-                </div>
-                <div class="right-bottom-card-right">
-                    <h2 class="right-bottom-card-title">Fine-tune your visibility</h2>
-                    <div class="right-bottom-card-subtitle">Choose who can and can't see your jobseeker criteria and Projobs details.</div>
-                    <div class="right-bottom-card-action">Edit criteria<i class="fa fa-long-arrow-right"></i></div>
-                    
-                </div>
-            
-            </div>
+        <div class="top-card-right w-50">
+          <img
+            src="images/top-card-image.svg"
+            alt="top card svg"
+            class="top-card-svg"
+          />
         </div>
+      </div>
+      <div class="bottom-card-container">
+        <div class="bottom-card">
+          <div class="left-bottom-card-left">
+            <img
+              src="/images/icons8-search.svg"
+              alt="bottom left svg"
+              class="bottom-left-svg"
+            />
+          </div>
+          <div class="left-bottom-card-right">
+            <h2 class="left-bottom-card-title">
+              Have any recruiters visited your profile?
+            </h2>
+            <div class="left-bottom-card-subtitle">
+              Find out now by browsing your profile visitors.
+            </div>
+            <div class="left-bottom-card-action">
+              Show profile visitors<i class="fa fa-long-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-card">
+          <div class="right-bottom-card-left">
+            <img
+              src="/images/icons8-search.svg"
+              alt="bottom left svg"
+              class="bottom-right-svg"
+            />
+          </div>
+          <div class="right-bottom-card-right">
+            <h2 class="right-bottom-card-title">Fine-tune your visibility</h2>
+            <div class="right-bottom-card-subtitle">
+              Choose who can and can't see your jobseeker criteria and Projobs
+              details.
+            </div>
+            <div class="right-bottom-card-action">
+              Edit criteria<i class="fa fa-long-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-title-card">
+        <h1 class="title-carousel">How's your job search going?</h1>
+        <button class="title-carousel-card" id="toggle-btn" onclick="btn">Projobs</button>
+        <div id="hidden-tab" class="hidden-tab">
+          <h2>Be better prepared</h2>
+          <p>
+            Take advantage of exclusive Projobs content, such as webinars and
+            online tutorials.
+          </p>
+          <div class="top-card-button"><strong>Get Projobs</strong></div>
+        </div>
+      </div>
+      <p class="subtitle-carousel">
+        Check out our guidance to help you get the job you want:
+      </p>
+      <div class="top-carousel-button">Write job applications</div>
+      <div class="top-carousel-button">Prepare for interviews</div>
+      <div class="top-carousel-button">Get guidance</div>
     </div>
-
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>
