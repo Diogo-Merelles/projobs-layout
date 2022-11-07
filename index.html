@@ -91,11 +91,25 @@
         </div>
       </div>
       <div class="carousel-title-card">
-        <h1 class="title-carousel">How's your job search going?</h1>
-        <button class="title-carousel-card" id="toggle-btn" onclick="btn">Projobs</button>
+        <div class="carousel-title">
+          <div class="carousle-title-left">
+            <h1 id="carousel-top" class="top-banner-title">
+              How's your job search going?
+            </h1>
+          </div>
+          <div class="carousel-title-right">
+            <button
+              class="top-banner carousel-banner"
+              id="toggle-btn"
+              onclick="btn"
+            >
+              <strong>Projobs <i id="arrow-up"></i></strong>
+            </button>
+          </div>
+        </div>
         <div id="hidden-tab" class="hidden-tab">
-          <h2>Be better prepared</h2>
-          <p>
+          <h2 id="carousel-title-text">Be better prepared</h2>
+          <p class="hidden-tab-text">
             Take advantage of exclusive Projobs content, such as webinars and
             online tutorials.
           </p>

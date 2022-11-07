@@ -120,7 +120,7 @@ h2 {
 }
 
 .text-container-item {
-    font-size: 18px;
+   font-size: 18px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -145,6 +145,8 @@ h2 {
     border-style: ridge;
 
     cursor: pointer;
+
+    margin-bottom: 48px;
 
 }
 
@@ -209,4 +211,62 @@ h2 {
 
 #hidden-tab {
     display: none;
+
+    background-color: #F2F5F9;
+    width: 810px;
+    padding: 24px;
+}
+
+.carousel-banner {
+    display: flex;
+    
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.carousel-title-card {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+}
+
+.carousel-title {
+    display: flex;
+    align-self: flex-start;
+}
+
+#carousel-top {
+    margin-right: 12px;
+}
+
+.carousel-title-right {
+    display: flex;
+    align-self: center;
+}
+
+#carousel-title-text {    
+    font-size: 24px;   
+    margin-top: 0;
+}
+
+.hidden-tab-text {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    font-size: 18px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#arrow-up {
+        
+        border: solid black;
+        overflow: hidden;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(-135deg);
+        margin-left: 6px;      
 }
