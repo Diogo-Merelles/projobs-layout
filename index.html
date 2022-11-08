@@ -108,6 +108,7 @@
           </div>
         </div>
         <div id="hidden-tab" class="hidden-tab">
+          <i class="fa fa-close" id="fa fa-close" onclick=""></i>
           <h2 id="carousel-title-text">Be better prepared</h2>
           <p class="hidden-tab-text">
             Take advantage of exclusive Projobs content, such as webinars and
@@ -119,9 +120,21 @@
       <p class="subtitle-carousel">
         Check out our guidance to help you get the job you want:
       </p>
-      <div class="top-carousel-button">Write job applications</div>
-      <div class="top-carousel-button">Prepare for interviews</div>
-      <div class="top-carousel-button">Get guidance</div>
+      <div class="carousel-nav" id="carousel-nav">
+        <div
+          id="top-carousel-button"
+          class="top-carousel-button"
+          onclick="carouselBtn"
+        >
+          Write job applications
+        </div>
+        <div id="top-carousel-button" class="top-carousel-button" onclick="carouselBtn">
+          Prepare for interviews
+        </div>
+        <div id="top-carousel-button" class="top-carousel-button" onclick="carouselBtn">
+          Get guidance
+        </div>
+      </div>
     </div>
     <script src="./index.js"></script>
   </body>
