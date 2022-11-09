@@ -120,7 +120,7 @@ h2 {
 }
 
 .text-container-item {
-   font-size: 18px; 
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -207,7 +207,7 @@ h2 {
     margin-left: 1em;
 }
 
-/* second part - carousel */
+/* --- second part - Above carousel --- */
 
 #hidden-tab {
     display: none;
@@ -223,12 +223,12 @@ h2 {
 
 .carousel-banner {
     display: flex;
-    
+
     border: none;
     cursor: pointer;
 
     margin: 0;
-    
+
 
 }
 
@@ -254,8 +254,8 @@ h2 {
     align-self: center;
 }
 
-#carousel-title-text {    
-    font-size: 24px;   
+#carousel-title-text {
+    font-size: 24px;
     margin-top: 0;
 }
 
@@ -264,23 +264,23 @@ h2 {
     margin-top: 0;
     margin-bottom: 24px;
 
-    font-size: 18px; 
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #arrow-up {
-        
-        border: solid black;
-        overflow: hidden;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 3px;
-        transform: rotate(45deg);
-        margin-left: 6px;      
+
+    border: solid black;
+    overflow: hidden;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    margin-left: 6px;
 }
 
 .subtitle-carousel {
-    color:  #5E737D;
+    color: #5E737D;
     margin-bottom: 24px;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -296,8 +296,8 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0px 12px;
     align-self: flex-start;
-    
-    
+
+
 }
 
 .top-carousel-button {
@@ -307,16 +307,17 @@ h2 {
     margin-right: 8px;
     padding: 1px 16px;
     height: 42px;
-    
+    margin-bottom: 16px;
+
     align-items: center;
     justify-items: center;
 
     cursor: pointer;
-    
+
 }
 
 .top-carousel-button:hover {
-    background-color: #7C8A9C ;
+    background-color: #7C8A9C;
 }
 
 .highligth-carousel {
@@ -327,7 +328,7 @@ h2 {
     margin-right: 8px;
     padding: 1px 16px;
     height: 42px;
-    
+
     align-items: center;
     justify-items: center;
 
@@ -336,4 +337,33 @@ h2 {
 
 .fa-close {
     align-self: flex-end;
+}
+
+/* --- Carousel --- */
+
+.carousel-container {
+    display: flex;
+    width: inherit;
+
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+
+    align-self: flex-start;
+
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+
+
+}
+
+.carousel-card {
+    display: flex;
+    margin-right: 16px;
+    height: 274.5px;
+    width: 224px;
+    background-color: #9C195B;
+
+    flex-shrink: 0;
 }
