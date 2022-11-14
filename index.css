@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+span, p, h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .main-card {
     display: flex;
     flex-direction: column;
@@ -209,7 +213,7 @@ h2 {
 
 /* --- second part - Above carousel --- */
 
-#hidden-tab {
+.projobs-fencing-banner {
     display: none;
     flex-direction: column;
 
@@ -219,7 +223,6 @@ h2 {
 
     border-radius: 8px;
     margin-bottom: 24px;
-
 }
 
 .carousel-banner {
@@ -237,6 +240,27 @@ h2 {
     display: flex;
     align-self: flex-start;
     flex-direction: column;
+}
+
+.user-flag {
+    background-color: #9C195B;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    font-size: 12px;
+    padding: 0.3em 0.8em 0.3em 0.8em;
+    width: fit-content;
+}
+
+.user-flag span {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.user-flag i {
+    margin-left: 2px;
+    transition: transform .15s ease-out;
 }
 
 .carousel-title {
@@ -260,24 +284,13 @@ h2 {
     margin-top: 0;
 }
 
-.hidden-tab-text {
+.projobs-fencing-banner-text {
     display: flex;
     margin-top: 0;
     margin-bottom: 24px;
 
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-#arrow-up {
-
-    border: solid black;
-    overflow: hidden;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    margin-left: 6px;
 }
 
 .subtitle-carousel {

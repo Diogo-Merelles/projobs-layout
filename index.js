@@ -1,6 +1,6 @@
-const targetDiv = document.getElementById("hidden-tab");
+const targetDiv = document.getElementById("projobs-fencing-banner");
 const btn = document.getElementById("toggle-btn");
-const arrow = document.getElementById("arrow-up");
+const arrow = document.getElementById("projobs-fencing-banner-arrow");
 const carouselBtn = document.querySelectorAll(".top-carousel-button");
 const closeHiddenTab = document.getElementById("fa fa-close");
 
@@ -14,7 +14,7 @@ closeHiddenTab.onclick = () => {
 btn.onclick = () => {
   if (targetDiv.style.display !== "flex") {
     targetDiv.style.display = "flex";
-    arrow.style.transform = "rotate(-135deg)";
+    arrow.style.transform = "rotate(-180deg)";
   //   arrow.animate([
   //   `@Keyframes arrow-up {
   //     from {
@@ -29,7 +29,7 @@ btn.onclick = () => {
   // });
   } else {
     targetDiv.style.display = "none";
-    arrow.style.transform = "rotate(45deg)";
+    arrow.style.transform = "rotate(0deg)";
     // targetDiv.style.transition = "5s ease-in-out";
   }
 };
