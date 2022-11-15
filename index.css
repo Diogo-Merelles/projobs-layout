@@ -1,247 +1,164 @@
 * {
     box-sizing: border-box;
 }
-
-span, p, h1, h2 {
+span, p, h1, h2, button, div {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .main-card {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0 auto;
-
     width: 810px;
 }
-
 h2 {
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .top-card {
-    display: flex;
-
     background-color: #F2F5F9;
-
+    border-radius: 8px;
+    display: flex;
     margin: 16px 0px 24px;
     padding: 48px 48px 16px;
-
-    border-radius: 8px;
-
 }
-
 .w-50 {
     width: 50%;
 }
-
 .top-card-left {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-
-
 }
-
 .top-banner {
-
-    width: fit-content;
-
+    background-color: #9C195B;
+    color: #FFFFFF;
+    font-size: 12px;
     margin: 0px 0px 8px;
     padding: 0.3em 0.8em 0.3em 0.8em;
-    color: #FFFFFF;
-    background-color: #9C195B;
-
-    font-size: 12px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.top-banner-title {
-    margin: 0px 0px 8px;
-
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.top-card-button {
-    display: flex;
-    justify-self: flex-end;
-    margin-top: 1.5em;
-
     width: fit-content;
-    padding: 0.5em 1em 0.5em 1em;
-
+}
+.top-banner-title {
+    font-size: 32px;
+    margin: 0px 0px 8px;
+}
+.top-card-button {
     background-color: #9C195B;
     border-radius: 5em;
     color: #FFFFFF;
-
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
     cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    justify-self: flex-end;
+    margin-top: 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+    width: fit-content;
 }
-
 .top-card-button:hover {
-
     background-color: #940F62;
 }
-
-
 .top-card-right {
     display: flex;
 }
-
 .top-card-svg {
-    justify-self: end;
     align-self: center;
-
     height: 12em;
-    width: 18em;
-
+    justify-self: end;
     margin-left: 10em;
-
-
+    width: 18em;
 }
-
 .fa-check {
-    padding-right: 10px;
-    margin: 0px 8px 0px 0px;
-
     align-self: center;
     justify-self: center;
+    margin: 0px 8px 0px 0px;
+    padding-right: 10px;
 }
-
 .top-card-text {
     display: flex;
     flex-direction: column;
 }
-
 .text-container {
     display: flex;
-
 }
-
 .text-container-item {
     font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .bottom-card-container {
     display: flex;
     flex-direction: row;
     gap: 16px;
-
     margin-bottom: 24px;
-
-
 }
-
 .bottom-card {
-    display: flex;
-
-    height: 190px;
-
-    padding: 24px 16px 16px;
-    border-radius: 8px;
     border: 1px solid gray;
     border-style: ridge;
-
+    border-radius: 8px;
     cursor: pointer;
-
+    display: flex;
+    height: 190px;
     margin-bottom: 48px;
-
+    padding: 24px 16px 16px;
 }
-
 .left-bottom-card-right {
     display: flex;
     flex-wrap: wrap;
     padding: 0px 0px 0px 12px;
 }
-
 .left-bottom-card-title {
     margin: 0px 0px 8px;
 }
-
-
 .left-bottom-card-subtitle {
-    margin: 0px 0px 8px;
     color: #5E737D;
-
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 0px 8px;
 }
-
 .left-bottom-card-action {
-    display: flex;
     align-self: flex-end;
-
+    display: flex;
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .right-bottom-card-right {
     display: flex;
     flex-wrap: wrap;
     padding: 0px 0px 0px 12px;
 }
-
 .right-bottom-card-title {
     margin: 0px 0px 8px;
 }
-
 .right-bottom-card-subtitle {
-    margin: 0px 0px 8px;
     color: #5E737D;
-
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 0px 8px;
 }
-
 .right-bottom-card-action {
-    display: flex;
     align-self: flex-end;
-
+    display: flex;
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .fa-long-arrow-right {
     margin-left: 1em;
 }
-
 /* --- second part - Above carousel --- */
-
 .projobs-fencing-banner {
+    background-color: #F2F5F9;
+    border-radius: 8px;
     display: none;
     flex-direction: column;
-
-    background-color: #F2F5F9;
-    width: 810px;
-    padding: 24px;
-
-    border-radius: 8px;
     margin-bottom: 24px;
+    padding: 24px;
+    width: 810px;
 }
-
 .carousel-banner {
-    display: flex;
-
     border: none;
     cursor: pointer;
-
-    margin: 0;
-
-
-}
-
-.carousel-title-card {
     display: flex;
+    margin: 0;
+}
+.carousel-title-card {
     align-self: flex-start;
+    display: flex;
     flex-direction: column;
 }
-
 .user-flag {
     background-color: #9C195B;
     border: none;
@@ -252,169 +169,125 @@ h2 {
     padding: 0.3em 0.8em 0.3em 0.8em;
     width: fit-content;
 }
-
 .user-flag span {
     color: #FFFFFF;
     font-weight: bold;
 }
-
 .user-flag i {
     margin-left: 2px;
     transition: transform .15s ease-out;
 }
-
 .carousel-title {
-    display: flex;
     align-self: flex-start;
-}
-
-#carousel-top {
-    margin-right: 12px;
-    margin-bottom: 4px;
-
-}
-
-.carousel-title-right {
     display: flex;
-    align-self: center;
 }
-
+#carousel-top {
+    margin-bottom: 4px;
+    margin-right: 12px;
+}
+.carousel-title-right {
+    align-self: center;
+    display: flex;
+}
 #carousel-title-text {
     font-size: 24px;
     margin-top: 0;
 }
-
 .projobs-fencing-banner-text {
     display: flex;
-    margin-top: 0;
-    margin-bottom: 24px;
-
     font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 24px;
+    margin-top: 0;
 }
-
 .subtitle-carousel {
-    color: #5E737D;
-    margin-bottom: 24px;
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-    margin-top: 0;
-    margin-bottom: 24px;
     align-self: flex-start;
+    color: #5E737D;
+    font-size: 18px;
+    margin-bottom: 24px;
+    margin-top: 0;
 }
-
 .carousel-nav {
+    align-self: flex-start;
     display: flex;
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0px 12px;
-    align-self: flex-start;
-
-
 }
-
 .top-carousel-button {
-    display: flex;
+    align-items: center;
     background-color: #DBE2E6;
     border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    height: 42px;
+    justify-items: center;
+    margin-bottom: 16px;
     margin-right: 8px;
     padding: 1px 16px;
-    height: 42px;
-    margin-bottom: 16px;
-
-    align-items: center;
-    justify-items: center;
-
-    cursor: pointer;
-
 }
-
 .top-carousel-button:hover {
     background-color: #7C8A9C;
 }
-
 .highligth-carousel {
-    display: flex;
+    align-items: center;
     background-color: black;
     color: #FFFFFF;
+    cursor: pointer;
     border-radius: 50px;
+    display: flex;
+    height: 42px;
+    justify-items: center;
     margin-right: 8px;
     padding: 1px 16px;
-    height: 42px;
-
-    align-items: center;
-    justify-items: center;
-
-    cursor: pointer;
 }
-
 .fa-close {
     align-self: flex-end;
 }
-
 /* --- Carousel --- */
-
 .carousel-container {
+    align-self: flex-start;
     display: flex;
-    width: inherit;
-
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    margin-left: 8px;
     overflow: hidden;
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
-
-    align-self: flex-start;
-
-    padding-bottom: 8px;
-    margin-bottom: 16px;
-    margin-left: 8px;
-
-
+    width: inherit;
 }
-
 .carousel-card {
-    display: flex;
-    flex-direction: column;
-    margin-right: 16px;
-    height: 274.5px;
-    width: 224px;
     border: 1px solid #5E737D;
-
-    flex-shrink: 0;
     border-radius: 8px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 274.5px;
+    margin-right: 16px;
+    width: 224px;
 }
-
 #bottom-carousel-btn {
-    font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-self: flex-start;
+    font-size: 18px;
 }
-
 img {
-    width: 100%;
+    border-radius: 8px 8px 0px 0px;  
     height: 45%;
-    border-radius: 8px 8px 0px 0px;
-    
+    width: 100%;
 }
 .carousel-text-box {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
     padding: 12px 12px 16px;
 }
-
 .carousel-card-title {
+    font-size: 16px;
     margin-bottom: 8px;
     margin-top: 0px;
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .carousel-card-subtitle {
-    margin: 0;
     font-size: 14px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
 }
