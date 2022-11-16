@@ -4,6 +4,15 @@
 span, p, h1, h2, button, div {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+button {
+    border: none;
+    font-weight: bold;
+}
+img {
+    border-radius: 8px 8px 0px 0px;  
+    height: 45%;
+    width: 100%;
+}
 .main-card {
     align-items: center;
     display: flex;
@@ -12,7 +21,7 @@ span, p, h1, h2, button, div {
     width: 810px;
 }
 h2 {
-    font-size: 16px;
+font-size: 16px;
 }
 .top-card {
     background-color: #F2F5F9;
@@ -34,6 +43,7 @@ h2 {
     background-color: #9C195B;
     color: #FFFFFF;
     font-size: 12px;
+    font-style: bold;
     margin: 0px 0px 8px;
     padding: 0.3em 0.8em 0.3em 0.8em;
     width: fit-content;
@@ -218,6 +228,7 @@ h2 {
     border-radius: 50px;
     cursor: pointer;
     display: flex;
+    font-size: 16px;
     height: 42px;
     justify-items: center;
     margin-bottom: 16px;
@@ -230,10 +241,11 @@ h2 {
 .highligth-carousel {
     align-items: center;
     background-color: black;
+    border-radius: 50px;
     color: #FFFFFF;
     cursor: pointer;
-    border-radius: 50px;
     display: flex;
+    font-size: 16px;
     height: 42px;
     justify-items: center;
     margin-right: 8px;
@@ -269,11 +281,6 @@ h2 {
 #bottom-carousel-btn {
     align-self: flex-start;
     font-size: 18px;
-}
-img {
-    border-radius: 8px 8px 0px 0px;  
-    height: 45%;
-    width: 100%;
 }
 .carousel-text-box {
     align-items: flex-start;
