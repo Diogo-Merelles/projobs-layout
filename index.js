@@ -15,7 +15,6 @@ btn.onclick = () => {
   if (targetDiv.style.display !== "flex") {
     targetDiv.style.display = "flex";
     arrow.style.transform = "rotate(-180deg)";
-  
   } else {
     targetDiv.style.display = "none";
     arrow.style.transform = "rotate(0deg)";

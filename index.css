@@ -1,7 +1,12 @@
 * {
     box-sizing: border-box;
 }
-span, p, h1, h2, button, div {
+span,
+p,
+h1,
+h2,
+button,
+div {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 button {
@@ -9,7 +14,7 @@ button {
     font-weight: bold;
 }
 img {
-    border-radius: 8px 8px 0px 0px;  
+    border-radius: 8px 8px 0px 0px;
     height: 45%;
     width: 100%;
 }
@@ -21,7 +26,7 @@ img {
     width: 810px;
 }
 h2 {
-font-size: 16px;
+    font-size: 16px;
 }
 .top-card {
     background-color: #F2F5F9;
@@ -109,14 +114,17 @@ font-size: 16px;
     margin-bottom: 48px;
     padding: 24px 16px 16px;
 }
+
 .left-bottom-card-right {
     display: flex;
     flex-wrap: wrap;
     padding: 0px 0px 0px 12px;
 }
+
 .left-bottom-card-title {
     margin: 0px 0px 8px;
 }
+
 .left-bottom-card-subtitle {
     color: #5E737D;
     font-size: 16px;
@@ -148,7 +156,6 @@ font-size: 16px;
 .fa-long-arrow-right {
     margin-left: 1em;
 }
-/* --- second part - Above carousel --- */
 .projobs-fencing-banner {
     background-color: #F2F5F9;
     border-radius: 8px;
@@ -254,7 +261,6 @@ font-size: 16px;
 .fa-close {
     align-self: flex-end;
 }
-/* --- Carousel --- */
 .carousel-container {
     align-self: flex-start;
     display: flex;
