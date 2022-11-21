@@ -31,3 +31,31 @@ for (button in carouselBtn) {
     }
   };
 }
+
+const slidesContainer = document.getElementById("carousel-container");
+const slide = document.getElementById("carousel-card");
+const prevButton = document.getElementById("fa-arrow-left");
+const nextButton = document.getElementById("fa fa-arrow-right");
+
+nextButton.onclick = () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft += slideWidth;
+};
+
+prevButton.onclick = () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft -= slideWidth;
+};
+
+
+// prevButton.onmouseover = () => {
+//   prevButton.style.visibility = "visible";
+// }
+
+// prevButton.style.display = "none";
+
+// prevButton.onmouseover = () => {
+//   prevButton.style.display = "display";
+//   console.log("hey");
+// }
+
