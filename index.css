@@ -304,27 +304,5 @@ h2 {
     font-size: 14px;
     margin: 0;
 }
-.fa-arrow-left, .fa-arrow-right {
-    align-self: center;
-    background-color: gray;
-    border-radius: 50%;
-    cursor: pointer;
-    overflow: visible;
-    padding: 14px;
-    position: absolute;
-    /* visibility: hidden; */
-    z-index: 1;
-}
-.fa-arrow-right {
-    left: 62em;
-    position: absolute;  
-}
-.fa-arrow-left {
-    right: 61.5em;
-}
-.fa-arrow-left:hover, .fa-arrow-right:hover {
-    background-color: #5E737D;
-    /* visibility: visible; */
-}
 
 
